@@ -1,0 +1,26 @@
+{
+  "name": "althorn-design-tokens",
+  "version": "1.0.0",
+  "description": "Public distribution of the Althorn design tokens and base component CSS — colour, type, spacing, elevation and motion. No credentials needed to install.",
+  "license": "MIT",
+  "main": "althorn-tokens.css",
+  "style": "althorn-tokens.css",
+  "exports": {
+    ".": "./althorn-tokens.css",
+    "./css": "./althorn-tokens.css",
+    "./tokens": "./althorn-tokens.json",
+    "./tokens-studio": "./althorn-tokens-tokensstudio.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "althorn-tokens.css",
+    "althorn-tokens.json",
+    "althorn-tokens-tokensstudio.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohPik/althorn-design-tokens.git"
+  }
+}
